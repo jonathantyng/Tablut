@@ -1,0 +1,146 @@
+	@CHARSET "ISO-8859-1";
+
+heading,nav,section,footer {
+	display: block;
+}
+
+body {
+	background-color: white;
+}
+
+#container {
+	width: 900px;
+	height: 880px;
+	background-color: #F0F0F0;
+	border: solid 5px purple;
+}
+
+#tablutwindow {
+	position: relative;
+	width: 550px;
+	height: 550px;
+	overflow: hidden;
+	padding:10px;
+	z-index:100;
+	background-color: yellow;
+}
+
+heading {
+	display: block;
+	width: 900px;
+	height: 130px;
+	background-color: #303030;
+}
+
+heading h1 {
+	color: white;
+	padding-left: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 60px;;
+}
+
+heading p {
+	font-family: Arial, sans-serif;
+	color: white;
+	float: right;
+	padding-right: 20px;
+}
+
+nav {
+	display: block;
+	float: left;
+	background: #303030;
+	clear: both;
+}
+
+nav ul {
+	list-style: none;
+	height: 590px;;
+	display: block;
+	float: left;
+	padding: 20px;
+	margin: 0px;
+}
+
+nav ul li {
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	color: #303030;
+	font-family: Arial, sans-serif;
+	background-color: #F0F0F0;
+}
+
+nav ul li a {
+	color: #303030;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	background-color: #D8D8D8;
+}
+
+nav ul li:hover {
+	background-color: #D8D8D8;
+}
+
+section {
+	display: block;
+	float: left;
+}
+
+section h2 {
+	font-family: Arial, sans-serif;
+	padding-left: 10px;
+}
+
+section h3 {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-top: 200px;
+}
+
+section p {
+	font-family: Arial, sans-serif;
+	padding-left: 10px;
+}
+
+section table {
+	font-family: Arial, sans-serif;
+	display: block;
+	float: left;
+	margin-right: 390px;
+	padding-left: 10px;
+}
+
+section form {
+	padding-left: 10px;
+}
+
+section img {
+	padding: 10px;
+	display: block;
+	float: left;
+}
+
+section2 {
+	position: absolute;
+	width: 600px;
+	height: 650px;
+	overflow: hidden;
+}
+
+footer {
+	clear: left;
+	display: block;
+	float: left;
+	height: 50px;
+	padding-top: 50px;
+	padding-left: 480px;
+}
